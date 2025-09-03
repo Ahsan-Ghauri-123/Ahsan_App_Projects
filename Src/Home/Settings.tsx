@@ -23,12 +23,10 @@ export default function SettingsScreen() {
     <SafeAreaView
       style={[
         styles.container,
-        darkMode && styles.darkContainer, // Dark container apply
+        darkMode && styles.darkContainer, 
       ]}
     >
       <Text style={[styles.header, darkMode && styles.darkText]}>Settings</Text>
-
-      {/* Dark Mode */}
       <View style={styles.row}>
         <Text style={[styles.label, darkMode && styles.darkText]}>Dark Mode</Text>
         <TouchableOpacity

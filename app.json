@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "todo-app",
-    "slug": "todo-app",
+    "name": "Zentasks",
+    "slug": "Zentasks",
+    "owner": "ahsan_ghauri",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -16,7 +17,8 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.ahsan_ghauri.Zentasks"
     },
     "web": {
       "bundler": "metro",
@@ -41,7 +43,7 @@
     "extra": {
       "router": {},
       "eas": {
-        "projectId": "97826c6d-e7f6-4070-9036-4e77985cb08e"
+        "projectId": "ba63635b-de6a-40eb-b855-26b681ca2ee0"
       }
     }
   }
